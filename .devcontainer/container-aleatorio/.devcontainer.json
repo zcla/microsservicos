@@ -1,0 +1,15 @@
+{
+    "name": "Container aleatorio",
+    "dockerComposeFile": ["../../docker-compose.yml"],
+    "service": "container-aleatorio",
+    "shutdownAction": "none",
+    "workspaceFolder": "/workspace/container-aleatorio-src",
+
+	"features": {
+		"ghcr.io/devcontainers/features/java:1": {
+			"version": "none",
+			"installMaven": "true",
+			"installGradle": "false"
+		}
+	}
+}

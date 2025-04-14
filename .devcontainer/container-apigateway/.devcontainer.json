@@ -1,0 +1,19 @@
+{
+    "name": "Container apigateway",
+    "dockerComposeFile": ["../../docker-compose.yml"],
+    "service": "container-apigateway",
+    "shutdownAction": "none",
+    "workspaceFolder": "/workspace/container-apigateway-src",
+
+	"features": {
+		"ghcr.io/devcontainers/features/java:1": {
+			"version": "none",
+			"installMaven": "true",
+			"installGradle": "false"
+		}
+	},
+
+	"forwardPorts": [
+		8060
+	]
+}

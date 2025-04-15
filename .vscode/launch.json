@@ -20,17 +20,17 @@
         },
         {
             "type": "java",
-            "name": "ApigatewayApplication",
-            "request": "launch",
-            "mainClass": "zcla71.apigateway.ApigatewayApplication",
-            "projectName": "apigateway"
-        },
-        {
-            "type": "java",
             "name": "AleatorioApplication",
             "request": "launch",
             "mainClass": "zcla71.aleatorio.AleatorioApplication",
             "projectName": "aleatorio"
+        },
+        {
+            "type": "java",
+            "name": "ApigatewayApplication",
+            "request": "launch",
+            "mainClass": "zcla71.apigateway.ApigatewayApplication",
+            "projectName": "apigateway"
         }
     ]
 }

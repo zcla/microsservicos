@@ -13,14 +13,14 @@ services:
     image: mcr.microsoft.com/devcontainers/java:1-21-bullseye
     volumes:
       - .:/workspace:cached
-    command: sleep infinity
+    # command: sleep infinity
   container-apigateway:
     image: mcr.microsoft.com/devcontainers/java:1-21-bullseye
     volumes:
       - .:/workspace:cached
-    command: sleep infinity
+    # command: sleep infinity
   container-aleatorio:
     image: mcr.microsoft.com/devcontainers/java:1-21-bullseye
     volumes:
       - .:/workspace:cached
-    command: sleep infinity
+    # command: sleep infinity
